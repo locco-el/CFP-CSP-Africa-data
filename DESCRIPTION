@@ -1,0 +1,33 @@
+Package: CSPandCFP
+Title: Corporate Social Responsibility and Corporate Financial
+    Perfomance in Africa
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Akua",
+             family = "Oppong-Nkrumah",
+             role = "aut",
+             email = "apeprahyeboah@gmail.com"),
+      person(given = "Oduro",
+             family = "Oppong-Nkrumah",
+             role = "cre",
+             email = "locco.el@gmail.com"))
+Description: | This package conducts the analysis for a
+    dissertation on the relationship between Corporate Financial
+    Performance (CFP) and Corporate Social Performance (CSP) in Africa.
+    It seeks to contribute to closing gaps in the literature on CSP in
+    Africa by pursuing three lines of inquiry: firstly, how to measure CSP
+    in the African context; secondly, how CFP affects CSP in Africa; and
+    thirdly, how the relationship between CFP and CSP varies with firm
+    characteristics.  The gaps in the literature that informed these lines
+    of inquiry are discussed in further detail below.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    here,
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat

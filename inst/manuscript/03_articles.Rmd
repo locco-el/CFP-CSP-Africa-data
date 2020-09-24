@@ -1,0 +1,7 @@
+# Manuscripts
+
+```{r child='paper1.Rmd'}
+```
+
+```{r child='paper2.Rmd'}
+```
