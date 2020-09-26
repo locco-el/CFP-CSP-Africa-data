@@ -3,6 +3,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/locco-el/CFP-CSP-Africa.svg?branch=master)](https://travis-ci.com/locco-el/CFP-CSP-Africa)
 <!-- badges: end -->
 
 This package conducts the analysis for a dissertation on the

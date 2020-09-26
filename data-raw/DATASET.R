@@ -1,14 +1,20 @@
 ## code to prepare `DATASET` dataset goes here
 
 # load raw data
-all_data <- data.table::fread(here::here("inst/extdata/rawdata.csv"))
+rawdata_path <- system.file('extdata', 'rawdata.csv', package = 'CSPandCFP')
+rawdata
+all_data <- data.table::fread(rawdata)
 
 # explore data
 str(all_data, list.len = 200)
 head(all_data)
 summary(all_data)
 
-sectors_lookup <- data.table::fread(here::here("inst/extdata/sectors_lookup.csv"), header = TRUE)
+
+sectors_lookup_path <-
+  system.file('extdata', 'sectors_lookup.csv', package = 'CSPandCFP')
+sectors_lookup <- data.table::fread(sectors_lookup_path)
+
 head(sectors_lookup)
 str(sectors_lookup)
 

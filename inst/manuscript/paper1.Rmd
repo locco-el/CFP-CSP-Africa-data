@@ -124,8 +124,13 @@ library(stargazer)
 ```
 
 ```{r load_data}
+data("all_data")
 
-data()
+coms <- all_data[, grepl("com_", names(all_data))]
+
+pairs(coms[1:5])
+
+cor(coms[1:10])
 
 ```
 

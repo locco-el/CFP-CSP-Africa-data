@@ -5,4 +5,7 @@ test_that("drops variance below", {
     x = c(1, 2, 3, 4),
     y = c(1, 1, 1, 1)
   )
+
+  expect_output(dim(drop_if_variance_below(test_data, 1.2)), '[1] 4 0')
+
 })
