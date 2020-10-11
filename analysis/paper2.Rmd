@@ -1,6 +1,81 @@
+## The Effect of Corporate Financial Performance on Corporate Social Performance in Africa
+
+### Introduction
+
+Whiles the effect of CSP on CFP has been studied extensively, that of CFP on CSP has received much less attention. [note on numbers obtained from a quick search on google scholar.... ]
+There is considerable evidence that CSP affects CFP positively. [..put evidence of positive relationship here..] This aligns with the institutional theory which posits that businesses are integral to the fabric of society and are legitimzed by conforming to its norms and values. In developed economies, CSR is seen as a core business activity and the resources required for its execution are often safeguarded even in times of adversity. For example, a manufacturing concern cannot cut corners on safe disposal of its industrial waste even if it finds itself in financial difficulties. CSR in this context is founded on an ethical foundation.
+
+However, in developing countries, CSR is mostly viewed as philanthropic and consequently, CSP activities are subject to the discretion of business managers. CSR related activities are often considered subordinate to the responsibility of business leaders to their shareholders to maximize returns on their investment. Thus slack resources are necessary to support CSR activities [comment on Slack Resources Theory here]. In this context, CSR activities may be starved of resources in times of adversity. It would thus be expected that, in the business environment of developing countries, CFP would be positively correlated with future CSR expenditure. 
+
+This question has not been well studied in the literature especially in the African business environment. 
+[...describe findings of Danquah et al 2013...]
+
+The effect of CSP on CFP has been shown to be non-linear. Initial expenditure on CSP reduces CFP as there is little return on this early investment. As reputation benefits accrue from the investment in CSR related activities, CFP rises with increase CSP. The benefits of CSP for the bottom-line eventually plateau as the law of diminishing returns kicks in. We have reason to believe that the effect of CFP on CSP may be similarly non-linear in the African context. We expect CSP to increase with increasing CFP up to a point beyond which the curve should plateau or even decrease. When CFP is low, there are few slack resources to invest in CSP. As CFP increases, the availability of more slack resources means that more can be allocated to CSR related activities. Beyond a certain point, however, expenditure on CSR-related activities ceases to increase as the future returns on the associated reputational benefits tend to be limited,  in the African context. In fact, over time, as company reputations become firmly established, their commitment to CSR may wane leading to a potential dip in the curve.
+
+One of the drivers of CSR is the formalization of ethical input into business decision-making. This commonly takes the form of having a board-level ethical oversight structure such as a social and ethics committee. We would expect that the existence of such a structure would tend to accelerate investment in CSR activities and may drive the CFP-CSP curve upwards further than for companies lacking such structure. Thus, the existence of such a structure would tend to moderate the relationship between CFP and CSP.
+
+In this paper, we will examine the effect of CFP on future CSP activity. We will examine the functional form of this relationship with a view to uncovering any inherent non-linearities. We will also explore any possible moderation of this relationship by the existence of a formal ethics function on the board.
 
 
 
+###tHEORITICAL AND hYPOTHESIS DEVELOPMENT
+-THE EFFECT OF CFP ON CSP
+-THE CURVILINEAR NATURE OF THE RELATIONSHIP
+-THE MODERATING ROLE OF BOARD LEVEL ETHICS FUNCTION
+
+
+
+
+
+
+### Methods
+
+#### DATA AND SAMPLE
+
+### Study Population
+
+Our study population was made up of listed sub-Saharan Africa companies. As previously mentioned, we elected to study companies from the sub-Saharan African context because of the unique business and social environment there. This region has some of the poorest countries in the world and is also incredibly socio-culturally diverse. 
+[DISCUSS AFRICAN BUSINESS CLIMATE]
+
+
+### Data Collection
+
+We used secondary data from financial statements of the selected companies published from 2014 to 2018. Such financial reports have been found to be reliable and comprehensive for listed firms due to auditing requirements. (Bozzolan et al., 2003; Abeyekera, 2007; Guthrie et al.,2006; Sobhani et al., 2009; Yi and Davey, 2010; Joshi et al., 2010; Menassa, 2010;Saleh et al., 2010; Samkin and Schneider, 2010).
+
+We sampled firms listed on the two largest stock markets by market capitalisation in each of the three geographical regions of sub-Saharan Africa--i.e. West Africa, East Africa and Southern Africa respectively. Companies were included based on the availability and accessibility of published annual reports for the study period (2014 to 2018). In all, 239 companies were included resulting in a total of 1195 reporting-years of data. Financial companies were excluded because they are bound by a unique set of regulations and use a different annual reporting framework. Also, we found that some of the CSP measures we analyzed did not apply to them (Kansal and Singh, 2012)
+
+### Data Collection/Extraction
+
+We extracted data from the published reports using a content analysis approach. As our aim was to provide a context-specific measure of CSP, we gathered data from the communications of the firms. We adopted the measures of the Corporate, Social, Environment, Energy Emmissions (CSEEE) Index developed by Kansal and Singh (2012). The CSEEE was chosen because it was developed in a developing country (India) and provides a comprehensive list of CSR activities (Ninty eight activities in total). The index comprises seven categories of activities: Community development,   Human Resource engagement,  Product/ Service Innovation, Environment, Energy, Emissions of carbon and other harmful gases, and Other CSR activities (See appendix 1).
+
+We employed a parsing algorithm written in python to extract sentences based on the presence a given set of words and/or phrases in order of importance. The words parsed by this algorithm had been extracted into plain text form to improve the speed and efficiency of the algorithm. The extraction was done by the use of Candy PDF tool (a proprietary software). The extracted sentences were then manually checked and graded to ensure that they are consistent with the grading criteria. The annual reports were graded as follows:
+
+  0 if the activity was not reported on
+  1 if the activity was reported on
+  2 if the activity was quantified in monetary terms
+  
+The grading process was undertaken by two independent assesors and cross-checked to ensure accuracy. The results were then entered on a pre prepared spread sheet. 
+
+
+
+
+
+
+#### VARIABLES
+-CSP: pca score
+-CFP:
+-interaction variables
+-Control variables
+
+
+
+
+
+
+
+
+#### MODELS
+regress CSP on lagged CSP
 ## Analysis for Paper 2
 
 General notes on analysis 
