@@ -1,8 +1,0 @@
-output:
-  bookdown::pdf_book:
-    toc: no
-    template: null
-    includes:
-      in_header: tex/preamble.tex
-      before_body: tex/doc_preface.tex
-  bookdown::html_book: default
